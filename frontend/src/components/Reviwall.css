@@ -1,0 +1,31 @@
+.rev{
+    position:absolute;
+    top:20%; 
+    left:0%;
+    z-index:10;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width:80VW;
+    height:60vh;
+    border:1px solid red;
+}
+.rev .review-block {
+    grid-column: span 4;
+}
+
+/* .MatchPage {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.LinksList .EachYear {
+    padding: 1rem;
+} */
